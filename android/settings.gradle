@@ -1,0 +1,9 @@
+rootProject.name = 'SampleCustomUiApp'
+include ':paytm-customuisdk-react-native'
+project(':paytm-customuisdk-react-native').projectDir = new File(rootProject.projectDir, '../node_modules/paytm-customuisdk-react-native/android')
+include ':paytm-customuisdk-react-native'
+project(':paytm-customuisdk-react-native').projectDir = new File(rootProject.projectDir, '../node_modules/paytm-customuisdk-react-native/android')
+include ':paytm-customuisdk-react-native'
+project(':paytm-customuisdk-react-native').projectDir = new File(rootProject.projectDir, '../node_modules/paytm-customuisdk-react-native/android')
+apply from: file("../node_modules/@react-native-community/cli-platform-android/native_modules.gradle"); applyNativeModulesSettingsGradle(settings)
+include ':app'
